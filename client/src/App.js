@@ -1,16 +1,9 @@
 import "./App.css";
 
-
 function App() {
-  const user = true
+  const user = true;
   //  useSelector((state) => state.authReducer.authData);
-  return (
-    <div
-     
-    >
-      
-    </div>
-  );
+  return <div></div>;
 }
 
 export default App;
