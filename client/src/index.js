@@ -9,7 +9,13 @@ import App from "./App";
 // stack overflow
 
 ReactDOM.render(
-  <Route path="*" element={<App />} />,
+  <Provider store={store}>
+      <BrowserRouter>
+        <Routes>
+          <Route path="*" element={<App />} />
+        </Routes>
+      </BrowserRouter>
+  </Provider>,
   document.getElementById("root")
 );
 
