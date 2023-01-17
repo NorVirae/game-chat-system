@@ -69,7 +69,7 @@ const Chat = () => {
     <div className="Chat">
       {/* Left Side */}
       <div className="Left-side-chat">
-        <LogoSearch />
+        {/* <LogoSearch /> */}
         <div className="Chat-container">
           <h2>Chats</h2>
           <div className="Chat-list">
