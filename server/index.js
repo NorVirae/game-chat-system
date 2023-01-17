@@ -22,7 +22,7 @@ app.use(express.static("public"));
 app.use("/images", express.static("images"));
 
 dotenv.config();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 8080;
 
 const CONNECTION = process.env.MONGODB_CONNECTION;
 console.log(CONNECTION)
